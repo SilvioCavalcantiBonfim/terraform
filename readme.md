@@ -4,6 +4,7 @@
 ![amazonaws](https://img.shields.io/badge/-Amazon_AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)
 ![microsoftazure](https://img.shields.io/badge/-Microsoft_Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)
 ![googlecloud](https://img.shields.io/badge/-Google_Cloud_Platform-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)
+![alibabacloud](https://img.shields.io/badge/-Alibaba_Cloud-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)
 
 Bem-vindo ao repositório de projetos Terraform! Aqui você encontrará uma coleção de projetos individuais, cada um focado em diferentes aspectos da infraestrutura como código utilizando o Terraform. Abaixo estão os links para cada um desses projetos, juntamente com as instruções sobre como configurar suas credenciais da AWS e Azure como variáveis de ambiente.
 
@@ -17,9 +18,13 @@ Bem-vindo ao repositório de projetos Terraform! Aqui você encontrará uma cole
 
     [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Azure_Storege_Account/main.tf)
 
-3. [Projeto 3 - Create Google Storage Bucket](./Create_Google_Storage_Bucket): Cria um bucket de armazenamento no Google Cloud para armazenar e gerenciar seus objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
+3. [Projeto 3 - Create Google Storage Bucket](./Create_Google_Storage_Bucket): Cria um bucket de armazenamento no Google Cloud para armazenar e gerenciar objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
 
     [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Google_Storage_Bucket/main.tf)
+
+4. [Projeto 4 - Create Alibaba Cloud Bucket](./Create_Alibaba_Cloud_Bucket): Cria um bucket de armazenamento no Alibaba Cloud para armazenar e gerenciar seus objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
+
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Alibaba_Cloud_Bucket/main.tf)
 
 ## Configuração das Credenciais
 
@@ -62,6 +67,17 @@ gcloud auth application-default login
 ```
 Isso executará a autenticação na sua conta do Google Cloud Platform.
 
+
+### Alibaba Cloud
+
+1. Configure suas credenciais da Alibaba Cloud como variáveis de ambiente:
+```bash
+    export ALICLOUD_ACCESS_KEY=seu_access_key
+    export ALICLOUD_SECRET_KEY=seu_secret_key
+    export ALICLOUD_REGION=sua_region
+```
+
+2. Certifique-se de que as variáveis de ambiente estejam configuradas corretamente antes de executar o projeto.
 ## Contribuição
 
 Sinta-se à vontade para contribuir com novos projetos ou melhorias nos projetos existentes. Crie um fork deste repositório, faça suas alterações e envie um pull request. Suas contribuições são bem-vindas!
