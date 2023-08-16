@@ -4,8 +4,12 @@ resource "azurerm_resource_group" "fristresourcegroup" {
   tags = local.common_tags
 }
 
+resource "random_id" "prefix" {
+  byte_length = 8
+}
+
 resource "azurerm_storage_account" "friststorageaccount" {
-  name                     = "silviocbonfimstoraccount"
+  name                     = "${random_id.prefix}account"
   resource_group_name      = azurerm_resource_group.fristresourcegroup.name
   location                 = azurerm_resource_group.fristresourcegroup.location
   account_tier             = var.account_tier

@@ -3,18 +3,23 @@
 ![terraform](https://img.shields.io/badge/-terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)
 ![amazonaws](https://img.shields.io/badge/-Amazon_AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)
 ![microsoftazure](https://img.shields.io/badge/-Microsoft_Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)
+![googlecloud](https://img.shields.io/badge/-Google_Cloud_Platform-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)
 
 Bem-vindo ao repositório de projetos Terraform! Aqui você encontrará uma coleção de projetos individuais, cada um focado em diferentes aspectos da infraestrutura como código utilizando o Terraform. Abaixo estão os links para cada um desses projetos, juntamente com as instruções sobre como configurar suas credenciais da AWS e Azure como variáveis de ambiente.
 
 ## Projetos Disponíveis
 
-1. [Projeto 1 - Create AWS S3 Bucket](./Create_AWS_S3_Bucket): Descrição breve sobre o projeto e o que ele provisiona.
+1. [Projeto 1 - Create AWS S3 Bucket](./Create_AWS_S3_Bucket): Cria um bucket no Amazon S3 para armazenar e gerenciar objetos, como arquivos, imagens e dados, na nuvem da AWS.
 
     [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_AWS_S3_Bucket/main.tf)
 
-2. [Projeto 2 - Create Azure Storege Account](./create_azure_storege_account): Descrição breve sobre o projeto e o que ele provisiona.
+2. [Projeto 2 - Create Azure Storege Account](./Create_Azure_Storege_Account): Cria um armazenamento no Microsoft Azure para armazenar diversos tipos de dados, como blobs, tabelas e filas, utilizando o código Terraform neste repositório.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./create_azure_storege_account/main.tf)
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Azure_Storege_Account/main.tf)
+
+3. [Projeto 3 - Create Google Storage Bucket](./Create_Google_Storage_Bucket): Cria um bucket de armazenamento no Google Cloud para armazenar e gerenciar seus objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
+
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Google_Storage_Bucket/main.tf)
 
 ## Configuração das Credenciais
 
@@ -42,6 +47,20 @@ Antes de executar qualquer um dos projetos acima, é necessário configurar suas
 2. Verifique se todas as variáveis de ambiente estão definidas corretamente antes de iniciar o projeto.
 
 Lembre-se de substituir `seu_access_key`, `seu_secret_key`, `seu_client_id`, `seu_client_secret`, `seu_subscription_id` e `seu_tenant_id` pelos valores correspondentes das suas contas da AWS e Azure.
+
+### Google Cloud Plataform
+
+"Certifique-se de estar com as credenciais do Google Cloud Platform configuradas com o gcloud.
+
+Acesse o site oficial do [Google Cloud SDK](https://cloud.google.com/sdk/docs/install?hl=pt-br) para encontrar o instalador apropriado para o seu sistema operacional (Windows, macOS ou Linux).
+
+Siga as instruções de instalação fornecidas na página para o seu sistema operacional específico. Geralmente, envolve baixar e executar o instalador.
+
+Por fim, execute o seguinte comando:
+```bash
+gcloud auth application-default login
+```
+Isso executará a autenticação na sua conta do Google Cloud Platform.
 
 ## Contribuição
 
