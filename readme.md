@@ -12,19 +12,19 @@ Bem-vindo ao repositório de projetos Terraform! Aqui você encontrará uma cole
 
 1. [Projeto 1 - Create AWS S3 Bucket](./Create_AWS_S3_Bucket): Cria um bucket no Amazon S3 para armazenar e gerenciar objetos, como arquivos, imagens e dados, na nuvem da AWS.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_AWS_S3_Bucket/main.tf)
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_AWS_S3_Bucket/readme.md)
 
 2. [Projeto 2 - Create Azure Storege Account](./Create_Azure_Storege_Account): Cria um armazenamento no Microsoft Azure para armazenar diversos tipos de dados, como blobs, tabelas e filas, utilizando o código Terraform neste repositório.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Azure_Storege_Account/main.tf)
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Azure_Storege_Account/readme.md)
 
 3. [Projeto 3 - Create Google Storage Bucket](./Create_Google_Storage_Bucket): Cria um bucket de armazenamento no Google Cloud para armazenar e gerenciar objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Google_Storage_Bucket/main.tf)
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Google_Storage_Bucket/readme.md)
 
 4. [Projeto 4 - Create Alibaba Cloud Bucket](./Create_Alibaba_Cloud_Bucket): Cria um bucket de armazenamento no Alibaba Cloud para armazenar e gerenciar seus objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Alibaba_Cloud_Bucket/main.tf)
+    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./Create_Alibaba_Cloud_Bucket/readme.md)
 
 ## Configuração das Credenciais
 
