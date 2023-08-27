@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "fristresourcegroup" {
-  name     = "resource-group-aula2"
+  name     = "resource-group-storage-account"
   location = var.location
   tags = local.common_tags
 }
@@ -19,6 +19,6 @@ resource "azurerm_storage_account" "friststorageaccount" {
 }
 
 resource "azurerm_storage_container" "friststoragecontainer" {
-  name                  = "arquivos"
+  name                  = "archive"
   storage_account_name  = azurerm_storage_account.friststorageaccount.name
 }
