@@ -121,6 +121,20 @@ Isso executará a autenticação na sua conta do Google Cloud Platform.
 ```
 
 2. Certifique-se de que as variáveis de ambiente estejam configuradas corretamente antes de executar o projeto.
+
+## Criando uma Chave SSH
+
+Antes de executar os projetos relacionados à criação de Máquinas Virtuais (VM), você precisará criar uma chave SSH para acessar as instâncias criadas. Você pode fazer isso utilizando o comando `ssh-keygen` nos diretórios correspondentes aos projetos de VM. Aqui está um exemplo de como fazer isso:
+
+1. Abra o terminal.
+2. Navegue até o diretório do projeto de VM desejado usando o comando `cd caminho/do/diretorio`.
+3. Execute o comando `ssh-keygen -f provider.key`, substituindo `provider` pela cloud escolhida.
+4. Siga as instruções para escolher um nome de arquivo e uma senha (opcional) para a chave.
+
+> Lembre-se de que as chaves SSH são sensíveis e devem ser tratadas com segurança. Não compartilhe suas chaves privadas e armazene-as em um local seguro.
+
+> O login por chave SSH nas VMs da Alibaba Cloud ainda não está disponível devido à falta de conhecimento. Futuramente, será corrigido.
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com novos projetos ou melhorias nos projetos existentes. Crie um fork deste repositório, faça suas alterações e envie um pull request. Suas contribuições são bem-vindas!

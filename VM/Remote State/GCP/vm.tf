@@ -21,6 +21,6 @@ resource "google_compute_instance" "vm" {
   }
 
   metadata = {
-    ssh-keys = "user:${file("./gcp-key.key.pub")}"
+    ssh-keys = "user:${file("./gcp.key.pub")}"
   }
 }
