@@ -1,4 +1,4 @@
-# Terraform - Criação de Armazenamento com versionamento na Azure
+# Criação de Armazenamento com versionamento na Azure
 
 ![terraform](https://img.shields.io/badge/-terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)
 ![microsoftazure](https://img.shields.io/badge/-Microsoft_Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)
