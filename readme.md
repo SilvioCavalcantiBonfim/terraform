@@ -1,4 +1,4 @@
-# Repositório de Projetos Terraform
+# Repositório de Projetos Terraform para Infraestrutura em Nuvem
 
 ![terraform](https://img.shields.io/badge/-terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)
 ![amazonaws](https://img.shields.io/badge/-Amazon_AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)
@@ -6,25 +6,68 @@
 ![googlecloud](https://img.shields.io/badge/-Google_Cloud_Platform-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)
 ![alibabacloud](https://img.shields.io/badge/-Alibaba_Cloud-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)
 
-Bem-vindo ao repositório de projetos Terraform! Aqui você encontrará uma coleção de projetos individuais, cada um focado em diferentes aspectos da infraestrutura como código utilizando o Terraform. Abaixo estão os links para cada um desses projetos, juntamente com as instruções sobre como configurar suas credenciais da AWS e Azure como variáveis de ambiente.
+## Bem-vindo ao Repositório de Projetos Terraform
 
-## Projetos Disponíveis
+Bem-vindo ao repositório de projetos Terraform! Este repositório é uma coleção de projetos criados como parte do curso **Terraform - Do Básico ao Avançado**, disponível na plataforma **Udemy**. Cada projeto foca em aspectos específicos da infraestrutura como código usando a ferramenta Terraform, abordando cenários de armazenamento (Storage), máquinas virtuais (VM) e redes virtuais (VPC) nas principais plataformas de nuvem.
 
-1. [Projeto 1 - Create AWS S3 Bucket](./storege/Create_AWS_S3_Bucket): Cria um bucket no Amazon S3 para armazenar e gerenciar objetos, como arquivos, imagens e dados, na nuvem da AWS.
+## Estrutura do Repositório
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./storege/Create_AWS_S3_Bucket/readme.md)
+Aqui estão os projetos disponíveis no repositório, organizados por recursos e plataformas de nuvem:
 
-2. [Projeto 2 - Create Azure Storege Account](./storege/Create_Azure_Storege_Account): Cria um armazenamento no Microsoft Azure para armazenar diversos tipos de dados, como blobs, tabelas e filas, utilizando o código Terraform neste repositório.
+### Armazenamento (Storage)
+1.**Create** - Cria um estrutura de armazenamento na cloud para armazenar e gerenciar objetos.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./storege/Create_Azure_Storege_Account/readme.md)
+[![amazonaws](https://img.shields.io/badge/-AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)](./Storage/Create/AWS/readme.md)
+[![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./Storage/Create/Azure/readme.md)
+[![alibabacloud](https://img.shields.io/badge/-Alibaba-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)](./Storage/Create/Alibaba/readme.md)
+[![googlecloud](https://img.shields.io/badge/-GCP-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)](./Storage/Create/GCP/readme.md)
 
-3. [Projeto 3 - Create Google Storage Bucket](./storege/Create_Google_Storege_Bucket): Cria um bucket de armazenamento no Google Cloud para armazenar e gerenciar objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
+2.**Enabled Versioning** - Cria um estrutura de armazenamento na cloud para armazenar e gerenciar objetos com versionamento habilitado para depois ser usado com `Remote State`.
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./storege/Create_Google_Storege_Bucket/readme.md)
+[![amazonaws](https://img.shields.io/badge/-AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)](./Storage/Enabled_Versioning/AWS/readme.md)
+[![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./Storage/Enabled_Versioning/Azure/readme.md)
+[![alibabacloud](https://img.shields.io/badge/-Alibaba-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)](./Storage/Enabled_Versioning/Alibaba/readme.md)
+[![googlecloud](https://img.shields.io/badge/-GCP-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)](./Storage/Enabled_Versioning/GCP/readme.md)
 
-4. [Projeto 4 - Create Alibaba Cloud Bucket](./storege/Create_Alibaba_Cloud_Bucket): Cria um bucket de armazenamento no Alibaba Cloud para armazenar e gerenciar seus objetos e dados com eficiência. Use essa solução flexível e escalável para armazenar arquivos, imagens, vídeos e muito mais.
+### Nuvem privada virtual (VPC/VNET)
 
-    [![terraform](https://img.shields.io/badge/-Código_Terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)](./storege/Create_Alibaba_Cloud_Bucket/readme.md)
+Cria um estrutura de nuvem privada virtual (VPC/VNET) com uma subnet com as devidas configurações de segurança.
+
+[![amazonaws](https://img.shields.io/badge/-AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)](./VPC/AWS/readme.md)
+[![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./VPC/Azure/readme.md)
+[![alibabacloud](https://img.shields.io/badge/-Alibaba-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)](./VPC/Alibaba/readme.md)
+[![googlecloud](https://img.shields.io/badge/-GCP-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)](./VPC/GCP/readme.md)
+
+
+### Maquina virtual (VM)
+
+> Antes de executar estes projetos deve-se executar o Storage/Enabled_Versioning e depois VPC da cloud escolhida.
+
+1. **Remote State** - Cria um maquina virtual (VM) com o sistema operacional linux na estrutura de nuvem privada virtual (VPC/VNET) criada anteriormente com remote state salvo na bucket da cloud tambem criada anteriormente com o acesso via SSH.
+
+[![amazonaws](https://img.shields.io/badge/-AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)](./VM/Remote%20State/AWS/readme.md)
+[![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./VM/Remote%20State/Azure/readme.md)
+[![alibabacloud](https://img.shields.io/badge/-Alibaba-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)](./VM/Remote%20State/Alibaba/readme.md)
+[![googlecloud](https://img.shields.io/badge/-GCP-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)](./VM/Remote%20State/GCP/readme.md)
+
+2. **Provisioners** - Cria um maquina virtual (VM) com o sistema operacional linux na estrutura de nuvem privada virtual (VPC/VNET) criada anteriormente com remote state salvo na bucket da cloud tambem criada anteriormente com o acesso via SSH e adiciona arquivos de teste na pasta `/tmp` do sistema e na pasta do projeto.
+
+[![amazonaws](https://img.shields.io/badge/-AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)](./VM/Provisioners/AWS/readme.md)
+[![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./VM/Provisioners/Azure/readme.md)
+[![alibabacloud](https://img.shields.io/badge/-Alibaba-white?style=for-the-badge&logo=alibabacloud&color=FF6A00&logoColor=white)](./VM/Provisioners/Alibaba/readme.md)
+[![googlecloud](https://img.shields.io/badge/-GCP-white?style=for-the-badge&logo=googlecloud&color=0078D7&logoColor=white)](./VM/Provisioners/GCP/readme.md)
+
+
+### Modulos no terraform
+
+1. **Local** - Cria um maquina virtual (VM) com o sistema operacional linux na estrutura de nuvem privada virtual (VPC) provida como modulo.
+
+[![amazonaws](https://img.shields.io/badge/-AWS-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)](./Module/Local/readme.md)
+
+2. **Remote** - Cria um maquina virtual (VM) com o sistema operacional linux em uma VNET criada com um modulo remoto.
+
+[![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./Module/Remote/readme.md)
+
 
 ## Configuração das Credenciais
 
