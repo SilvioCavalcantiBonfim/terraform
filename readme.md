@@ -68,6 +68,9 @@ Cria um estrutura de nuvem privada virtual (VPC/VNET) com uma subnet com as devi
 
 [![microsoftazure](https://img.shields.io/badge/-Azure-white?style=for-the-badge&logo=microsoftazure&color=0078D7&logoColor=white)](./Module/Remote/readme.md)
 
+### Pipelines
+
+1. **Gitlab** - Cria um maquina virtual (VM) com o sistema operacional linux tanto na azure quanto na aws usando o recurso de pipeline do [Gitlab](https://gitlab.com/SilvioCavalcantiBonfim/gitlab-ci).
 
 ## Configuração das Credenciais
 
