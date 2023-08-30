@@ -72,7 +72,7 @@ Cria um estrutura de nuvem privada virtual (VPC/VNET) com uma subnet com as devi
 
 1. **Gitlab** - Cria um maquina virtual (VM) com o sistema operacional linux tanto na azure quanto na aws usando o recurso de pipeline do [Gitlab](https://gitlab.com/SilvioCavalcantiBonfim/gitlab-ci).
 
-[![Gitlab](https://img.shields.io/badge/-Gitlab-white?style=for-the-badge&logo=gitlab&color=FC6D26&logoColor=white)](./Pipeline/gitlab/readme.md)
+[![Gitlab](https://img.shields.io/badge/-Gitlab-white?style=for-the-badge&logo=gitlab&color=FC6D26&logoColor=white)](./Pipeline/Gitlab/README.md)
 
 ## Configuração das Credenciais
 
