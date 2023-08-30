@@ -1,4 +1,4 @@
-# Criando uma Máquina Virtual Linux na AWS
+# Criando uma Máquina Virtual Linux na AWS e na Azure
 
 ![terraform](https://img.shields.io/badge/-terraform-white?style=for-the-badge&logo=terraform&color=7B42BC&logoColor=white)
 ![amazonaws](https://img.shields.io/badge/-Amazon_Web_Services-white?style=for-the-badge&logo=amazonaws&color=232F3E&logoColor=white)
