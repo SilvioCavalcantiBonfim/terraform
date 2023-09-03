@@ -74,6 +74,10 @@ Cria um estrutura de nuvem privada virtual (VPC/VNET) com uma subnet com as devi
 
 [![Gitlab](https://img.shields.io/badge/-Gitlab-white?style=for-the-badge&logo=gitlab&color=FC6D26&logoColor=white)](./Pipeline/Gitlab/README.md)
 
+2. **Azure Devops** - Cria um maquina virtual (VM) com o sistema operacional linux tanto na azure quanto na aws usando o recurso de pipeline do [Gitlab](https://gitlab.com/SilvioCavalcantiBonfim/gitlab-ci).
+
+[![azuredevops](https://img.shields.io/badge/-Gitlab-white?style=for-the-badge&logo=gitlab&color=FC6D26&logoColor=white)](./Pipeline/Gitlab/README.md)
+
 ## Configuração das Credenciais
 
 Antes de executar qualquer um dos projetos acima, é necessário configurar suas credenciais da AWS e Azure como variáveis de ambiente. Siga as instruções abaixo para configurar suas credenciais:
